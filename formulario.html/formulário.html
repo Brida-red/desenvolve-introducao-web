@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Pesquisa de Satisfação</h1>
+    <form method="post" action="pesquisa-satisfacao.html">
+      <section>
+        <h2>Dados Pessoais</h2>
+        <p>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" placeholder="Digite seu nome completo">
+        </p>
+        <p>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" placeholder="Digite seu e-mail">
+        </p>
+        <p>
+          <label for="telefone">Telefone de contato:</label>
+          <input type="tel" id="telefone" placeholder="Digite seu telefone">
+        </p>
+      </section>
+      <section>
+        <h3>Conte para nós como foi a sua experiência</h3>
+        <p>Conseguiu encontrar o que estava procurando?</p>
+         <input type="radio" id="Resposta 1" name="Pergunta 1">
+         <label for="Resposta 1">SIM</label>
+         <input type="radio" id="Resposta 2" name="Pergunta 1">
+         <label for="Resposta 2">NÃO</label>
+        
+        <p>Recomendaria nossos produtos para outras pessoas?</p>
+         <input type="radio" id="Resposta 1" name="Pergunta 1">
+         <label for="Pergunta 1">SIM</label>
+         <input type="radio" id="Resposta 2" name="Pergunta 1">
+         <label for="Pergunta 2">NÃO</label>
+
+        <p> Qual o produto chamou mais sua atenção?
+          <Select>
+            <option>Produto 1</option>
+            <option>Produto 2</option>
+            <option>Produto 3</option>
+            <option>Nenhum Produto</option>
+         </Select>
+        </p>
+        <p>
+          <input  type="checkbox" id="Autorização">
+          <label for="Autorização">Autorizo o compartilhamento dos dados</label>
+        </p>
+            
+      </section>
+      <input type="submit" value="Enviar respostas"/>
+      
+    </form>
+  </body>
+</html>
