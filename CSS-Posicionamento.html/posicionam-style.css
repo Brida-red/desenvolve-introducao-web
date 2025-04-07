@@ -5,6 +5,7 @@
     width: 80%;
     max-widht: 1280px;
     margin: auto;
+    position: relative;
   }
 
 .explanation {
