@@ -2,7 +2,22 @@
     width: 80%;
     max-widht: 1280px;
     margin: auto;
+    position: relative;
   }
+
+.explanation {
+    widith: 60%;
+    border-right: #4c5706 solid, 1px;
+    padding-right: 2%;
+}
+
+#design-selection {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
   
   #zen-intro {height: 550px;}
   
