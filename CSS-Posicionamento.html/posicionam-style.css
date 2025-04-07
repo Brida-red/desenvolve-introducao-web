@@ -1,11 +1,6 @@
 .page-wrapper {
     position: relative;
 }
-.page-wrapper {
-    width: 80%;
-    max-widht: 1280px;
-    margin: auto;
-  }
 
 .explanation {
     width: 60%;
@@ -20,6 +15,12 @@
     padding-right: 2%;
     padding-left: 2%;
 }
+
+.page-wrapper {
+    width: 80%;
+    max-widht: 1280px;
+    margin: auto;
+  }
   
   #zen-intro {height: 550px;}
   
