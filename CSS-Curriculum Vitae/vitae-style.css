@@ -3,13 +3,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #faa7de;
-    color:#ee2a7c
+    background-color: #fc79d4;
+    color: #5f0544;
 }
 
 header {
-    background: #ee2a7c;
-    color: #faa7de;
+    background: #f72c69;
+    color: #5f0544;
     padding: 10px 0;
     text-align: center;
 }
@@ -17,8 +17,9 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #faa7de;
-    font-family:'Times New Roman', Times, serif
+    color: #fc79d4;
+    font-family:'Times New Roman', Times, serif;
+
 }
 
 header img {
@@ -31,10 +32,13 @@ header img {
 section {
     padding: 20px;
     margin: 10px 0;
-    background: #f551be;
-    border-radius: 8px;
 }
 
+h2, h3 {
+    margin-top: 0;
+    color: #f72c69;
+    font-family:'Times New Roman', Times, serif;
+}
 
 p {
     margin: 5px 0;
@@ -44,13 +48,9 @@ p {
     margin-bottom: 20px;
 }
 
-h2, h3 {
-    margin-top: 0;
-    color: #f1659f;
-    font-family:'Times New Roman', Times, serif
-}
 
 nav {
+    background: #fc79d4;
     padding: 10px;
 }
 
@@ -64,10 +64,11 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
+    color: #5f0544;
 }
 
 nav ul li a {
-    color: #faa7de;
+    color: #5f0544;
     text-decoration: none;
 }
 
@@ -77,8 +78,8 @@ nav ul li a {
 }
 
 footer {
-    background: #ee2a7c;
-    color: #faa7de;
+    background: #f72c69;
+    color: #fc79d4;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
@@ -97,6 +98,6 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #faa7de;
+    color: #fc79d4;
     text-decoration: none;
 }
