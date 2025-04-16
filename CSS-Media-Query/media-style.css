@@ -1,4 +1,43 @@
+@media screan and (max-width: 768px) {
+    .design-selection {
+        position: static;
+        width: 100%
+    }
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+    
+    #zen-intro {height: auto;}
+    }
+
+    .participation { flex-direction: column;}
+    
+    p {text-indent: 0;}
+}
+
+@media print {
+    html {font-family: Times New Roman, Times, Serif;}
+    
+    #zen-intro header {
+    background-color: #9BA7BF;
+    color:  #4c5706;
+      }
+
+    .design-selection {
+        position: static;
+        width: 100%
+    }
+    
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+}
+    
+
 .design-selection li {border-top: #4c5706 solid 1px;}
+
 .design-selection li:last-of-type {border-bottom #4c5706 solid 1px;}
     
 .supporting footer {
