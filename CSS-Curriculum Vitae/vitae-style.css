@@ -9,7 +9,7 @@ body {
 
 header {
     background: #ca19a4;
-    color: #5f0544;
+    color: #11010c;
     padding: 10px 0;
     text-align: center;
 }
@@ -17,7 +17,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #8d0163;
+    color: #6d034d;
     font-family:'Times New Roman', Times, serif;
 
 }
@@ -97,7 +97,6 @@ footer ul li {
     margin: 0 10px;
 }
 
-footer ul li a {
-    color: #5f0544;
-    text-decoration: none;
+footer ul li a:hover {
+    color: #f3a3db;
 }
