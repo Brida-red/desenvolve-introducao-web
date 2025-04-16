@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f3a3db;
-    color: #5f0544;
+    color: #11010c;
 }
 
 header {
@@ -48,6 +48,7 @@ p {
     margin-bottom: 20px;
 }
 
+.habilidades a {color: #6d034d;}
 
 nav {
     background: #fc79d4;
@@ -96,6 +97,8 @@ footer ul {
 footer ul li {
     margin: 0 10px;
 }
+
+footer ul li a {color: #6d034d;}
 
 footer ul li a:hover {
     color: #f3a3db;
