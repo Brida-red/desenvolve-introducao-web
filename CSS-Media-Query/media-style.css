@@ -1,5 +1,5 @@
 @media screan and (max-width: 768px) {
-    .design-selection {
+    #design-selection {
         position: static;
         width: 100%;
     }
@@ -24,7 +24,7 @@
     color:  #4c5706;
       }
 
-    .design-selection {
+    #design-selection {
         position: static;
         width: 100%;
     }
