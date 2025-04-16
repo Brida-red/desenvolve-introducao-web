@@ -3,12 +3,12 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fc79d4;
+    background-color: #f3a3db;
     color: #5f0544;
 }
 
 header {
-    background: #f72c69;
+    background: #f531ca;
     color: #5f0544;
     padding: 10px 0;
     text-align: center;
@@ -17,7 +17,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #fc79d4;
+    color: #f382d1;
     font-family:'Times New Roman', Times, serif;
 
 }
@@ -36,7 +36,7 @@ section {
 
 h2, h3 {
     margin-top: 0;
-    color: #f72c69;
+    color: #f520c7;
     font-family:'Times New Roman', Times, serif;
 }
 
@@ -78,8 +78,8 @@ nav ul li a {
 }
 
 footer {
-    background: #f72c69;
-    color: #fc79d4;
+    background: #f531ca;
+    color: #5f0544;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
@@ -98,6 +98,6 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #fc79d4;
+    color: #5f0544;
     text-decoration: none;
 }
