@@ -1,7 +1,7 @@
 @media screan and (max-width: 768px) {
     .design-selection {
         position: static;
-        width: 100%
+        width: 100%;
     }
     .explanation {
         border-right: none;
@@ -26,7 +26,7 @@
 
     .design-selection {
         position: static;
-        width: 100%
+        width: 100%;
     }
     
     .explanation {
