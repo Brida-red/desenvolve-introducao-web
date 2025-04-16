@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-    .design-selection {
+    #design-selection {
         position: static;
         width: 100%;
     }
@@ -24,7 +24,7 @@
     color:  #4c5706;
       }
 
-    .design-selection {
+    #design-selection {
         position: static;
         width: 100%;
     }
@@ -87,12 +87,12 @@
     padding-right: 2%;
 }
 
-.design-selection {
+#design-selection {
     position: absolute;
     top: 480px;
     left: 62%;
-    width: 34%;
-    padding: 0 2%;
+    padding-right: 2%;
+    padding-left: 2%;
   
 }
 
