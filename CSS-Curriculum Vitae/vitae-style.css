@@ -105,3 +105,10 @@ footer ul li a {color: #6d034d;}
 footer ul li a:hover {
     color: #f3a3db;
 }
+
+@media screen and (max-width: 768px;) {
+    nav {orientation: portrait;}
+    .formação, .experiência {orientation: portrait;}
+    
+    
+}
