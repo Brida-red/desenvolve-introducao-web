@@ -55,6 +55,8 @@ nav {
     background: #fc79d4;
     padding: 10px;
     position: fixed;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul {
