@@ -16,7 +16,7 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin-top: 50px;
     font-size: 2.5em;
     color: #6d034d;
     font-family:'Times New Roman', Times, serif;
@@ -27,7 +27,6 @@ header img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    margin-top: 10px;
 }
 
 section {
@@ -50,12 +49,13 @@ p {
     margin-top: 10px;
 }
 
-.habilidades a {color: #6d034d;}
-.habilidades a:hover {color: #f3a3db;}
-
 nav {
     background: #fc79d4;
-    padding: 10px;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
     }
 
 nav ul {
@@ -63,11 +63,12 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0;
     color: #5f0544;
 }
 
@@ -80,6 +81,9 @@ nav ul li a {
     list-style-type: disc;
     padding-left: 20px;
 }
+
+.habilidades a {color: #6d034d;}
+.habilidades a:hover {color: #f531ca;}
 
 footer {
     background: #f531ca;
@@ -107,8 +111,19 @@ footer ul li a:hover {
     color: #f3a3db;
 }
 
-@media screen and (max-width: 768px;) {
-    nav {orientation: portrait;}
-    .formação, .experiência {orientation: portrait;}
-    .apresentação {orientation: portrait;} 
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    nav {flex-direction: column;}
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {margin-bottom: 10px}
+    .formação, .experiência, .apresentação {
+        display: block;
+        width: 100%;
+    }
+    header img {
+        width: 100px;
+        height: 100px;
+    }
 }
