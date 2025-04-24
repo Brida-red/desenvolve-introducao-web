@@ -118,7 +118,7 @@ footer ul li a:hover {
         align-items: center;
     }
     nav ul li {margin-bottom: 10px}
-    .formação, .experiência, .apresentação {
+    .formação, .experiência, .apresentação, .habilidades, .certificações {
         display: block;
         width: 100%;
     }
