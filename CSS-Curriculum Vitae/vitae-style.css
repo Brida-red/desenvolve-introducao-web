@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #f3a3db;
     color: #11010c;
+    position: static;
 }
 
 header {
@@ -56,7 +57,7 @@ nav {
     padding: 10px;
     position: fixed;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 nav ul {
