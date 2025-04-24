@@ -108,7 +108,10 @@ footer ul li a:hover {
 }
 
 @media screen and (max-width: 768px;) {
-    nav {orientation: portrait;}
+    nav {
+        orientation: portrait;
+        display: block;
+    }
     .formação, .experiência {orientation: portrait;}
     .apresentação {orientation: portrait;} 
 }
