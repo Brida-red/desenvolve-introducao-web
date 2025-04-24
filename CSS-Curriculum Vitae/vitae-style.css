@@ -55,7 +55,7 @@ p {
 
 nav {
     background: #fc79d4;
-    padding: 0px;
+    padding: 10px;
     position:fixed;
     }
 
@@ -68,7 +68,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0px;
+    margin: 0 30px;
     color: #5f0544;
 }
 
