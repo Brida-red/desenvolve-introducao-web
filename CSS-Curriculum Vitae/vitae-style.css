@@ -53,6 +53,7 @@ p {
 nav {
     background: #fc79d4;
     padding: 10px;
+    position: fixed;
 }
 
 nav ul {
